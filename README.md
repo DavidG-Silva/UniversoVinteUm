@@ -21,20 +21,20 @@
 ## EQUIPE
 
 - AMANDA SANTOS MANTOVANI
-[<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10">](#equipe)
-[<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10">](#equipe)
+<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
+<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
 
 - CRISTIAN LOPES TRINDADE
-[<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10">](#equipe)
-[<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10">](#equipe)
+<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
+<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
 
 - DAVID GUILHERME DA SILVA 
-[<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10">](https://www.linkedin.com/in/davidgsilva/)
-[<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10">](https://github.com/DavidG-Silva)
+<a href="https://www.linkedin.com/in/davidgsilva/" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
+<a href="https://github.com/DavidG-Silva" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
 
 - MARIA OLÍVIA RODRIGUES DOS SANTOS BARCELLOS
-[<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10">](#equipe)
-[<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10">](#equipe)
+<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
+<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
 
 ---
 

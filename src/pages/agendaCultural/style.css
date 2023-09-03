@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background: #ffc727;
+
+  border-bottom: solid 0.125rem #1c365e;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: flex-end;
+}
+
+header container {
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 0.875rem;
+
+  padding: 1.5rem 3rem 0 2rem;
+
+  height: 6rem;
+
+  width: 100%;
+}
+
+nav {
+  width: 40%;
+}
+
+.links_home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  color: #0e243f;
+  font-family: Inter;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+main {
+  width: 82vw;
+  margin: 0 auto;
+}
+
+.face_agenda {
+  display: flex;
+  justify-content: space-between;
+
+  height: 17rem;
+}
+
+.face_agenda container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 70%;
+}
+
+.face_agenda span {
+  color: #2d3a40;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.filtro_agenda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 2.5rem;
+
+  height: 50%;
+}
+
+.button_agenda {
+  background: #f7f7f7;
+  border: 1px solid #374850;
+  border-radius: 10px;
+  opacity: 0.8;
+
+  width: 32%;
+  height: 50%;
+  max-height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #374850;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button_agenda:hover {
+  scale: 1.1;
+  border: 2px solid #374850;
+  transition: scale 0.2s;
+}
+
+.face_agenda img {
+  width: 30%;
+}
+
+.conteudo_agenda {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cards_agenda_cinema {
+  border-radius: 1.7rem;
+  border: 2px solid #374850;
+  overflow: hidden;
+
+  position: relative;
+  width: 25%;
+  height: 20rem;
+
+  display: flex;
+  justify-content: flex-start;
+
+  margin: 0 0 1rem 1rem;
+}
+
+.cinema_trailer {
+  border-radius: 1.7rem;
+  border: 2px solid #374850;
+  overflow: hidden;
+
+  position: relative;
+  width: 25%;
+  height: 20rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin: 0 0 1rem 1rem;
+  opacity: 0;
+  scale: 0.5;
+}
+
+.cinema_poster {
+  position: absolute;
+  transition: opacity 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  max-width: 100%;
+  /* max-height: 110%; */
+}
+
+.cinema_banner {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  max-width: 100%;
+  /* max-height: 120%; */
+  z-index: -1;
+}
+
+.cinema_poster img,
+.cinema_banner img {
+  object-fit: cover;
+}
+
+.cinema_button_trailer {
+  background: #f7f7f7;
+  border: 1px solid #374850;
+  border-radius: 10px;
+  opacity: 0.8;
+
+  width: 30%;
+  height: 15%;
+
+  margin: auto auto 1rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #374850;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.cinema_ondeassistir {
+  background: #f7f7f7;
+  border: 1px solid #374850;
+  border-radius: 10px;
+  opacity: 0.8;
+
+  width: 45%;
+  height: 15%;
+
+  margin: auto auto 1rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #374850;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.cards_agenda_cinema:hover {
+  border-radius: 1.7rem;
+  border: 2px solid #374850;
+  overflow: hidden;
+
+  position: relative;
+  width: 37%;
+  height: 13rem;
+}
+
+.cards_agenda_cinema:hover .cinema_ondeassistir,
+.cards_agenda_cinema:hover .cinema_button_trailer,
+.cards_agenda_cinema:hover .cinema_banner {
+  opacity: 1;
+}
+
+.cards_agenda_cinema:hover .cinema_poster {
+  opacity: 0;
+}
+
+.cinema_button_trailer:active .cinema_trailer {
+  opacity: 1;
+}
+
+.cards_agenda_shows {
+  border-radius: 1.7rem;
+  border: 2px solid #374850;
+  overflow: hidden;
+
+  position: relative;
+  width: 45%;
+  height: 17rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin: 0 0 1rem 1rem;
+}
+
+.shows_poster {
+  position: absolute;
+  transition: opacity 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.shows_banner {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  max-width: 100%;
+  /* max-height: 120%; */
+}
+
+.shows_poster img {
+  object-fit: cover;
+  z-index: -1;
+}
+
+.shows_banner img {
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* .conteudo_vagas:hover .cards_vagas {
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+.conteudo_vagas .cards_vagas:hover {
+  scale: 1.1;
+  opacity: 1;
+  transition: scale 0.2s;
+} */
+
+.shows_titulo {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.shows_data,
+.shows_localidade {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.shows_maisinfo {
+  background: #f7f7f7;
+  border: 1px solid #374850;
+  border-radius: 10px;
+  opacity: 0.8;
+
+  width: 60%;
+  height: 15%;
+
+  margin: auto auto 1rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #374850;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.cards_agenda_shows:hover .shows_titulo,
+.cards_agenda_shows:hover .shows_data,
+.cards_agenda_shows:hover .shows_localidade,
+.cards_agenda_shows:hover .shows_maisinfo,
+.cards_agenda_shows:hover .shows_banner {
+  opacity: 1;
+}
+
+.cards_agenda_shows:hover .shows_poster {
+  opacity: 0;
+}
+
+.cards_agenda_teatro {
+  border-radius: 1.7rem;
+  border: 2px solid #374850;
+  overflow: hidden;
+
+  position: relative;
+  width: 45%;
+  height: 17rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin: 0 0 1rem 1rem;
+}
+
+.teatro_banner {
+  position: absolute;
+  transition: opacity 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -1;
+}
+
+.teatro_maisinfo {
+  background: #f7f7f7;
+  border: 1px solid #374850;
+  border-radius: 10px;
+  opacity: 0.8;
+
+  width: 60%;
+  height: 15%;
+
+  margin: auto auto 1rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #374850;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.cards_agenda_teatro:hover .teatro_maisinfo {
+  opacity: 1;
+}
+
+footer {
+  background: #ffc727;
+
+  height: 2rem;
+  padding: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}

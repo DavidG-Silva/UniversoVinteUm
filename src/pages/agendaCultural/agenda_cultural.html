@@ -1,108 +1,197 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Universo 21</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="../index.html"><img src="../../image/logo.png"  alt="Logo do Universo21"></a>
+      <container>
+        <a href="../index.html">
+          <img src="../../image/logo.png" alt="Logo do Universo21"
+        /></a>
         <nav>
-            <ul>
-                <li><a href ="../index.html"><strong>HOME</strong></a></li>
-                <li><a href ="../../pages/home/sobre.html">SOBRE</a></li>
-                <li><a href ="../../pages/home/contato.html">CONTATO</a></li>
-                <li><a href ="../../pages/home/equipe.html">EQUIPE</a></li>
-            </ul>
+          <ul class="links_home">
+            <li>
+              <a href="../index.html"><strong>HOME</strong></a>
+            </li>
+            <li><a href="../../pages/home/sobre.html">SOBRE</a></li>
+            <li><a href="../../pages/home/contato.html">CONTATO</a></li>
+            <li><a href="../../pages/home/equipe.html">EQUIPE</a></li>
+          </ul>
         </nav>
+      </container>
     </header>
 
-
     <main>
-        <section class="face_agenda" id="face_agenda">
-            <h3>Agenda Cultural</h3>
-            <div class="filtro_agenda" id="filtro_agenda">
-                <button class="button_agenda" id="button_agenda_cinema">Cinema</button>
-                <button class="button_agenda" id="button_agenda_shows">Shows</button>
-                <button class="button_agenda" id="button_agenda_teatro">Teatro</button>
-            </div>
-            <img src="../../image/agenda-eventos.png" alt="Imagem agenda">
-        </section>
+      <section class="face_agenda">
+        <container>
+          <span>Agenda Cultural</span>
+          <div class="filtro_agenda">
+            <div class="button_agenda" id="button_agenda_cinema">Cinema</div>
+            <div class="button_agenda" id="button_agenda_shows">Shows</div>
+            <div class="button_agenda" id="button_agenda_teatro">Teatro</div>
+          </div>
+        </container>
+        <img src="../../image/agenda-eventos.png" alt="Imagem agenda" />
+      </section>
 
-        <section class="conteudo_agenda" id="conteudo_agenda">
-            <div class="cards_agenda_cinema">
-                <div id="card_agenda_cinema_#001">
-                    <div class="cinema_trailer" id="cinema_trailer_#001">
-                        <button class="button_trailer">Trailer</button>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wj4Naoc1RJA?si=P5Q-wvQGAnI771wi" title="Trailer: Colegas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <button class="button_fechatrailer">X</button>
-                    </div>
-                    <a class="link_cinema" id="link_cinema_#001" href="https://www.netflix.com/br/title/80095232">Onde assistir</a>
-                    <img class="cinema_poster" src="./img/cinema/poster_colegas.jpg" alt="Cinema #001" width="10%">
-                    <img class="cinema_banner" src="./img//cinema/banner_colegas.jpg" alt="Cinema #001" width="10%">
-                </div>
-                
-                <div id="card_agenda_cinema_#002">
-                    <div class="cinema_trailer" id="cinema_trailer_#002">
-                        <button class="button_trailer">Trailer</button>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/owvVjt2vJkk?si=piPcorcJjnRK-Ify" title="Trailer: Onde Nasce a Esperança" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <button class="button_fechatrailer">X</button>
-                    </div>
-                    <a class="link_cinema" id="link_cinema_#002" href="">Onde assistir</a>
-                    <img class="cinema_poster" src="./img/cinema/poster_ondenasceesperanca.jpg" alt="Cinema #002" width="10%">
-                    <img class="cinema_banner" src="./img/cinema/banner_ondenasceesperanca.jpg" alt="Cinema #002" width="10%">
-                </div>
-            </div>
+      <section class="conteudo_agenda">
+        <div class="cards_agenda_cinema" id="card_agenda_cinema_#001">
+          <div class="cinema_button_trailer">Trailer</div>
+          <!-- <div class="cinema_trailer">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Wj4Naoc1RJA?si=P5Q-wvQGAnI771wi"
+              title="Trailer: Colegas"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <button class="button_fechatrailer">X</button>
+          </div> -->
+          <div class="cinema_ondeassistir">
+            <a
+              id="link_cinema_#001"
+              href="https://www.netflix.com/br/title/80095232"
+              target="_blank"
+              >Onde assistir</a
+            >
+          </div>
+          <img
+            class="cinema_poster"
+            src="./img/cinema/poster_colegas.jpg"
+            alt="Cinema #001"
+          />
+          <img
+            class="cinema_banner"
+            src="./img//cinema/banner_colegas.jpg"
+            alt="Cinema #001"
+          />
+        </div>
 
-            <div class="cards_agenda_shows">
-                <div id="card_agenda_shows_#001">
-                    <span class="infos_shows">
-                        06/novembro/2023
-                        Arena TalTal - São Paulo/SP
-                    </span>
-                    <a class="link_shows" id="link_shows_#001" href="">Mais informações</a>
-                    <img class="show_poster" src="./img/shows/poster_anacarolinajorgevercillo.jpg" alt="Show #001" width="10%">
-                    <img class="show_banner" src="./img/shows/banner_anacarolinajorgevercillo.jpg" alt="Show #001" width="10%">
-                </div>
-                <div id="card_agenda_shows_#002">
-                    <span class="infos_shows">
-                        05/julho/2023
-                        Arena AtaAta - Osasco/SP
-                    </span>
-                    <a class="link_shows" id="link_shows_#002" href="">Mais informações</a>
-                    <img class="show_poster" src="./img/shows/poster_marcosebelutti.jpg" alt="Show #001" width="10%">
-                    <img class="show_banner" src="./img/shows/banner_marcosebelutti.jpg" alt="Show #001" width="10%">
-                </div>
-            </div>
+        <div class="cards_agenda_cinema" id="card_agenda_cinema_#002">
+          <div class="cinema_button_trailer">Trailer</div>
+          <!-- <div class="cinema_trailer">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/owvVjt2vJkk?si=piPcorcJjnRK-Ify"
+              title="Trailer: Onde Nasce a Esperança"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <button class="button_fechatrailer">X</button>
+          </div> -->
+          <div class="cinema_ondeassistir">
+            <a id="link_cinema_#002" href="" target="_blank">Onde assistir</a>
+          </div>
+          <div class="cinema_poster">
+            <img
+              src="./img/cinema/poster_ondenasceesperanca.jpg"
+              alt="Cinema #002"
+            />
+          </div>
+          <div class="cinema_banner">
+            <img
+              src="./img/cinema/banner_ondenasceesperanca.jpg"
+              alt="Cinema #002"
+            />
+          </div>
+        </div>
 
-            <div class="cards_agenda_teatro">
-                <div id="card_agenda_teatro_#001">
-                    <span class="infos_teatro">
-                        Musical
-                        03/agosto/2023
-                        Teatro Aquele - São Paulo/SP
-                    </span>
-                    <a class="link_teatro" id="link_teatro_#001" href="">Mais informações</a>
-                    <img src="./img/teatro/highschoolnovoano.png" alt="Teatro #001" width="10%">
-                </div>
-                <div id="card_agenda_teatro_#002">
-                    <span class="infos_teatro">
-                        Musical
-                        09/maio/2023
-                        Teatro Outro - São Paulo/SP
-                    </span>
-                    <a class="link_teatro" id="link_teatro_#002" href="">Mais informações</a>
-                    <img src="./img/teatro/highschooldesafiofinal.png" alt="Teatro #002" width="10%">
-                </div>
-            </div>
-        </section>
+        <div class="cards_agenda_shows" id="card_agenda_shows_#001">
+          <div class="shows_titulo">
+            <span> Ana Carolina & Jorge Vercillo </span>
+          </div>
+          <div class="shows_data">
+            <span> 06/novembro/2023 </span>
+          </div>
+          <div class="shows_localidade">
+            <span> Arena TalTal - São Paulo/SP </span>
+          </div>
+          <div class="shows_maisinfo">
+            <a id="link_shows_#001" href="" target="_blank">Mais informações</a>
+          </div>
+          <div class="shows_poster">
+            <img
+              src="./img/shows/poster_anacarolinajorgevercillo.jpg"
+              alt="Show Ana Carolina & Jorge Vercillo"
+            />
+          </div>
+          <div class="shows_banner">
+            <img
+              src="./img/shows/banner_anacarolinajorgevercillo.jpg"
+              alt="Show Ana Carolina & Jorge Vercillo"
+            />
+          </div>
+        </div>
 
+        <div class="cards_agenda_shows" id="card_agenda_shows_#002">
+          <div class="shows_titulo">
+            <span> Marcos & Belutti </span>
+          </div>
+          <div class="shows_data">
+            <span> 05/julho/2023 </span>
+          </div>
+          <div class="shows_localidade">
+            <span> Arena AtaAta - Osasco/SP </span>
+          </div>
+          <div class="shows_maisinfo">
+            <a id="link_shows_#002" href="" target="_blank">Mais informações</a>
+          </div>
+          <div class="shows_poster">
+            <img
+              src="img/shows/poster_marcosebelutti.jpg"
+              alt="Show Marcos & Belutti"
+            />
+          </div>
+          <div class="shows_banner">
+            <img
+              src="img/shows/banner_marcosebelutti.jpg"
+              alt="Show Marcos & Belutti"
+            />
+          </div>
+        </div>
+
+        <div class="cards_agenda_teatro" id="card_agenda_teatro_#001">
+          <!-- <span class="infos_teatro">
+            Musical 03/agosto/2023 Teatro Aquele - São Paulo/SP
+          </span> -->
+          <div class="teatro_maisinfo">
+            <a id="link_teatro_#001" href="">Mais informações</a>
+          </div>
+
+          <div class="teatro_banner">
+            <img src="./img/teatro/highschoolnovoano.png" alt="Teatro #001" />
+          </div>
+        </div>
+
+        <div class="cards_agenda_teatro" id="card_agenda_teatro_#002">
+          <!-- <span class="infos_teatro">
+            Musical 09/maio/2023 Teatro Outro - São Paulo/SP
+          </span> -->
+          <div class="teatro_maisinfo">
+            <a class="link_teatro" id="link_teatro_#002" href=""
+              >Mais informações</a
+            >
+          </div>
+          <div class="teatro_banner">
+            <img
+              src="./img/teatro/highschooldesafiofinal.png"
+              alt="Teatro #002"
+            />
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>Copyrith (c) 2023 Todos os direitos reservados</p>
+      <p>Copyrith (c) 2023 Todos os direitos reservados</p>
     </footer>
-
-</body>
+  </body>
 </html>

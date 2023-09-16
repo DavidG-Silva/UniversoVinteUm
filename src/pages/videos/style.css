@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background: #ffc727;
+
+  border-bottom: solid 0.125rem #1c365e;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: flex-end;
+}
+
+header container {
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 0.875rem;
+
+  padding: 1.5rem 3rem 0 2rem;
+
+  height: 6rem;
+
+  width: 100%;
+}
+
+nav {
+  width: 40%;
+}
+
+.links_home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  color: #0e243f;
+  font-family: Inter;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+main {
+  width: 82vw;
+  margin: 0 auto;
+}
+
+.face_videos {
+  display: flex;
+  justify-content: space-between;
+
+  height: 17rem;
+}
+
+.face_videos container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 70%;
+}
+
+.face_videos span {
+  color: #2d3a40;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.filtro_videos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 2.5rem;
+
+  height: 50%;
+}
+
+.button_videos {
+  background: #f7f7f7;
+  border: 1px solid #374850;
+  border-radius: 10px;
+  opacity: 0.8;
+
+  width: 32%;
+  height: 50%;
+  max-height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #374850;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button_videos:hover {
+  scale: 1.1;
+  border: 2px solid #374850;
+  transition: scale 0.2s;
+}
+
+.face_videos img {
+  width: 30%;
+}
+
+
+footer {
+  background: #ffc727;
+
+  height: 2rem;
+  padding: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}

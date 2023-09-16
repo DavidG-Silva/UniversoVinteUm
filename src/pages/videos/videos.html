@@ -3,29 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
     <title>Universo 21</title>
+    
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../../image/logo.png"  alt="Logo do Universo21"></a>
-        <nav>
-            <ul>
-                <li><a href ="../index.html"><strong>HOME</strong></a></li>
-                <li><a href ="../../pages/home/sobre.html">SOBRE</a></li>
-                <li><a href ="../../pages/home/contato.html">CONTATO</a></li>
-                <li><a href ="../../pages/home/equipe.html">EQUIPE</a></li>
+        <container>
+          <a href="../index.html">
+            <img src="../../image/logo.png" alt="Logo do Universo21"
+          /></a>
+          <nav>
+            <ul class="links_home">
+              <li>
+                <a href="../index.html"><strong>HOME</strong></a>
+              </li>
+              <li><a href="../../pages/home/sobre.html">SOBRE</a></li>
+              <li><a href="../../pages/home/contato.html">CONTATO</a></li>
+              <li><a href="../../pages/home/equipe.html">EQUIPE</a></li>
             </ul>
-        </nav>
-    </header>
+          </nav>
+        </container>
+      </header>
 
     <main>
-        <h1>Vídeos</h1>
-        <img src="../../image/videos-play.png" alt="IMAGEM VIDEOS">
-        <div>
-            <button>Educação Básica</button>
-            <button>Informática</button>
-            <button>Formação Profissional</button>
-        </div>
+
+        <section class="face_videos">
+            <container>
+              <span>Vídeos</span>
+              <div class="filtro_videos">
+                <div class="button_videos" id="button_videos_educacao">
+                    Educação Básica
+                </div>
+                <div class="button_videos" id="button_videos_informatica">
+                  Informática
+                </div>
+                <div class="button_videos" id="button_videos_profissional">
+                    Formação Profissional
+                </div>
+              </div>
+            </container>
+            <img src="../../image/videos-play.png" alt="IMAGEM VIDEOS">
+          </section>
+
 
         <div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/PHfZjSHswyg" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

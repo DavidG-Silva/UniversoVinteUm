@@ -3,24 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
     <title>Universo 21</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html"><img src="../../image/logo.png" alt="Logo do site Universo 21"></a>
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./sobre.html">SOBRE</a></li>
-                <li><a href="./equipe.html">EQUIPE</a></li>
+        <container>
+          <a href="../index.html">
+            <img src="../../image/logo.png" alt="Logo do Universo21"
+          /></a>
+          <nav>
+            <ul class="links_home">
+              <li>
+                <a href="../index.html">HOME</a>
+              </li>
+              <li><a href="../../pages/home/sobre.html">SOBRE</a></li>
+              <li><a href="../../pages/home/contato.html"><strong>CONTATO</strong></a></li>
+              <li><a href="../../pages/home/equipe.html">EQUIPE</a></li>
             </ul>
-        </nav>
+          </nav>
+        </container>
+      </header>
 
-    </header>
 
     <main>
-        <h1>CONTATO</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, voluptatum ratione officiis iste sit laborum iure modi deleniti assumenda eius. Reiciendis eligendi delectus officiis quaerat quam, corporis dolor saepe harum!</p>
+        <section class="face_contato">
+            <container>
+            <span>Contato</span>
+                <form class="formulario_contato" action="/formulario-contato" method="post">
+                    <div class="filtro_contato">
+                        <label for="nome">Nome:</label>
+                        <input type="texto" id="nome" name="nome_usuario">
+                    </div>
+                    <div class="filtro_contato">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email_usuario">
+                    </div>
+                    <div class="filtro_contato">
+                        <label for="texto">Texto:</label>
+                        <textarea id="texto" name="texto_usuario"></textarea>
+                    </div>
+                    <div class="button_contato">
+                        <button type="submit">Enviar</button>
+                        <button type="reset"> Apagar</button> 
+                    </div>
+                </form>
+            </container>    
+        </section>
     </main>
        
     <footer>

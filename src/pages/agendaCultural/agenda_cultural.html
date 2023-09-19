@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <container>
+      <div class="header_container">
         <a href="../index.html">
           <img src="../../image/logo.png" alt="Logo do Universo21"
         /></a>
@@ -22,60 +22,56 @@
             <li><a href="../../pages/home/equipe.html">EQUIPE</a></li>
           </ul>
         </nav>
-      </container>
+      </div>
     </header>
 
     <main>
       <section class="face_agenda">
-        <container>
+        <div class="face_container">
           <span>Agenda Cultural</span>
           <div class="filtro_agenda">
             <div class="button_agenda" id="button_agenda_cinema">Cinema</div>
             <div class="button_agenda" id="button_agenda_shows">Shows</div>
             <div class="button_agenda" id="button_agenda_teatro">Teatro</div>
           </div>
-        </container>
+        </div>
         <img src="../../image/agenda-eventos.png" alt="Imagem agenda" />
       </section>
 
       <section class="conteudo_agenda">
         <div class="cards_agenda_cinema" id="card_agenda_cinema_#001">
-          <div class="cinema_button_trailer">Trailer</div>
-          <!-- <div class="cinema_trailer">
+          <button class="button_abretrailer">Trailer</button>
+          <div class="cinema_trailer">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/Wj4Naoc1RJA?si=P5Q-wvQGAnI771wi"
-              title="Trailer: Colegas"
+              src="https://www.youtube.com/embed/Wj4Naoc1RJA?si=l8JbB8mWLizzMRrS"
+              title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
             <button class="button_fechatrailer">X</button>
-          </div> -->
+          </div>
           <div class="cinema_ondeassistir">
             <a
               id="link_cinema_#001"
-              href="https://www.netflix.com/br/title/80095232"
+              href="https://www.google.com.br"
               target="_blank"
               >Onde assistir</a
             >
           </div>
-          <img
-            class="cinema_poster"
-            src="./img/cinema/poster_colegas.jpg"
-            alt="Cinema #001"
-          />
-          <img
-            class="cinema_banner"
-            src="./img//cinema/banner_colegas.jpg"
-            alt="Cinema #001"
-          />
+          <div class="cinema_poster">
+            <img src="./img/cinema/poster_colegas.jpg" alt="Cinema #001" />
+          </div>
+          <div class="cinema_banner">
+            <img src="./img/cinema/banner_colegas.jpg" alt="Cinema #001" />
+          </div>
         </div>
 
         <div class="cards_agenda_cinema" id="card_agenda_cinema_#002">
-          <div class="cinema_button_trailer">Trailer</div>
-          <!-- <div class="cinema_trailer">
+          <button class="button_abretrailer">Trailer</button>
+          <div class="cinema_trailer">
             <iframe
               width="560"
               height="315"
@@ -86,9 +82,14 @@
               allowfullscreen
             ></iframe>
             <button class="button_fechatrailer">X</button>
-          </div> -->
+          </div>
           <div class="cinema_ondeassistir">
-            <a id="link_cinema_#002" href="" target="_blank">Onde assistir</a>
+            <a
+              id="link_cinema_#002"
+              href="https://www.google.com.br"
+              target="_blank"
+              >Onde assistir</a
+            >
           </div>
           <div class="cinema_poster">
             <img
@@ -115,7 +116,12 @@
             <span> Arena TalTal - São Paulo/SP </span>
           </div>
           <div class="shows_maisinfo">
-            <a id="link_shows_#001" href="" target="_blank">Mais informações</a>
+            <a
+              id="link_shows_#001"
+              href="https://www.google.com.br"
+              target="_blank"
+              >Mais informações</a
+            >
           </div>
           <div class="shows_poster">
             <img
@@ -142,7 +148,12 @@
             <span> Arena AtaAta - Osasco/SP </span>
           </div>
           <div class="shows_maisinfo">
-            <a id="link_shows_#002" href="" target="_blank">Mais informações</a>
+            <a
+              id="link_shows_#002"
+              href="https://www.google.com.br"
+              target="_blank"
+              >Mais informações</a
+            >
           </div>
           <div class="shows_poster">
             <img
@@ -163,7 +174,9 @@
             Musical 03/agosto/2023 Teatro Aquele - São Paulo/SP
           </span> -->
           <div class="teatro_maisinfo">
-            <a id="link_teatro_#001" href="">Mais informações</a>
+            <a id="link_teatro_#001" href="https://www.google.com.br"
+              >Mais informações</a
+            >
           </div>
 
           <div class="teatro_banner">
@@ -176,7 +189,10 @@
             Musical 09/maio/2023 Teatro Outro - São Paulo/SP
           </span> -->
           <div class="teatro_maisinfo">
-            <a class="link_teatro" id="link_teatro_#002" href=""
+            <a
+              class="link_teatro"
+              id="link_teatro_#002"
+              href="https://www.google.com.br"
               >Mais informações</a
             >
           </div>

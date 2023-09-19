@@ -18,7 +18,7 @@ header {
   align-items: flex-end;
 }
 
-header container {
+.header_container {
   background-color: #ffffff;
 
   display: flex;
@@ -64,7 +64,7 @@ main {
   height: 17rem;
 }
 
-.face_agenda container {
+.face_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,24 +145,6 @@ main {
   margin: 0 0 1rem 1rem;
 }
 
-.cinema_trailer {
-  border-radius: 1.7rem;
-  border: 2px solid #374850;
-  overflow: hidden;
-
-  position: relative;
-  width: 25%;
-  height: 20rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-
-  margin: 0 0 1rem 1rem;
-  opacity: 0;
-  scale: 0.5;
-}
-
 .cinema_poster {
   position: absolute;
   transition: opacity 0.3s;
@@ -172,7 +154,7 @@ main {
   justify-content: flex-end;
 
   max-width: 100%;
-  /* max-height: 110%; */
+  max-height: 100%;
 }
 
 .cinema_banner {
@@ -186,19 +168,28 @@ main {
 
   max-width: 100%;
   /* max-height: 120%; */
-  z-index: -1;
 }
 
 .cinema_poster img,
 .cinema_banner img {
+  z-index: -1;
   object-fit: cover;
 }
 
-.cinema_button_trailer {
+.cinema_trailer {
+  border-radius: 1.7rem;
+  border: 2px solid #374850;
+  overflow: hidden;
+
+  position: absolute;
+
+  display: none;
+}
+
+.button_abretrailer {
   background: #f7f7f7;
   border: 1px solid #374850;
   border-radius: 10px;
-  opacity: 0.8;
 
   width: 30%;
   height: 15%;
@@ -224,7 +215,6 @@ main {
   background: #f7f7f7;
   border: 1px solid #374850;
   border-radius: 10px;
-  opacity: 0.8;
 
   width: 45%;
   height: 15%;
@@ -257,7 +247,7 @@ main {
 }
 
 .cards_agenda_cinema:hover .cinema_ondeassistir,
-.cards_agenda_cinema:hover .cinema_button_trailer,
+.cards_agenda_cinema:hover .button_abretrailer,
 .cards_agenda_cinema:hover .cinema_banner {
   opacity: 1;
 }
@@ -266,8 +256,12 @@ main {
   opacity: 0;
 }
 
-.cinema_button_trailer:active .cinema_trailer {
-  opacity: 1;
+.button_abretrailer:active .cinema_trailer {
+  display: block;
+}
+
+.button_fechatrailer:active .cinema_trailer {
+  display: none;
 }
 
 .cards_agenda_shows {
@@ -311,14 +305,10 @@ main {
   /* max-height: 120%; */
 }
 
-.shows_poster img {
-  object-fit: cover;
-  z-index: -1;
-}
-
+.shows_poster img,
 .shows_banner img {
-  z-index: -1;
   object-fit: cover;
+  z-index: -1;
 }
 
 /* .conteudo_vagas:hover .cards_vagas {

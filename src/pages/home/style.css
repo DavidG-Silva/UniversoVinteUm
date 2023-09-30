@@ -7,6 +7,10 @@
   color: inherit;
   text-decoration: none;
 }
+body {
+
+  background-image: linear-gradient(to right, #fdf9da, #6ec6f1);
+}
  
 header {
   background: #ffc727;
@@ -19,13 +23,13 @@ header {
 }
 
 header container {
-  background-color: #ffffff;
+  background-image: linear-gradient(to left, #fdf9d5, #ededed);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  margin-top: 0.875rem;
+  margin-top: 0.7rem;
 
   padding: 1.5rem 3rem 0 2rem;
 
@@ -60,9 +64,9 @@ main {
 .face_contato {
   display: inline;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
 
-  height: 17rem;
+  height: 1rem;
 }
 
 .face_contato container {
@@ -77,7 +81,7 @@ main {
 .face_contato span {
   color: #2d3a40;
   font-family: Inter;
-  font-size: 40px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -107,7 +111,7 @@ main {
 .filtro_contato {
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 
 .filtro_contato label{
@@ -138,8 +142,23 @@ main {
 .filtro_contato textarea{
     border-radius: 10px;
     width: 80%;
-    height: 120px;
+    height: 80px;
     margin: 10px;
+    padding: 10px;
+
+    color: #374850;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.filtro_contato1 textarea{
+    border-radius: 10px;
+    width: 73.5%;
+    height: 80px;
+    margin: px;
     padding: 10px;
 
     color: #374850;
@@ -159,12 +178,12 @@ main {
 }
 
 .button_contato button {
-  background: #f7f7f7;
+  background:#fdf9da;
   border: 1px solid #374850;
   border-radius: 10px;
   opacity: 0.8;
 
-  width: 30%;
+  width: 25%;
   height: 50%;
   max-height: 80px;
 
@@ -192,9 +211,9 @@ main {
 footer {
   background: #ffc727;
 
-  height: 2rem;
+  height: 1rem;
   padding: 0.5rem;
-
+  margin-top: 135px;
   display: flex;
   align-items: center;
   justify-content: center;

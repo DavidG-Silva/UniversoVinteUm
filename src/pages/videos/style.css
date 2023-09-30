@@ -7,7 +7,10 @@
   color: inherit;
   text-decoration: none;
 }
- 
+body {
+
+  background-image: linear-gradient(to right, #fdf9da, #B4CFB0);
+}
 header {
   background: #ffc727;
 
@@ -19,13 +22,13 @@ header {
 }
 
 header container {
-  background-color: #ffffff;
+  background-image: linear-gradient(to left, #fdf9d5, #ededed);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  margin-top: 0.875rem;
+  margin-top: 0.7rem;
 
   padding: 1.5rem 3rem 0 2rem;
 
@@ -69,7 +72,7 @@ main {
   flex-direction: column;
   justify-content: center;
 
-  width: 70%;
+  width: 80%;
 }
 
 .face_videos span {
@@ -85,21 +88,22 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  width: 90%;
   margin-right: 2.5rem;
 
   height: 50%;
 }
 
 .button_videos {
-  background: #f7f7f7;
+  background:#fdf9da;
   border: 1px solid #374850;
   border-radius: 10px;
   opacity: 0.8;
-
-  width: 32%;
-  height: 50%;
-  max-height: 80px;
+  width: 90%;
+  height: 45%;
+  max-height: 90px;
+  margin-right: 28px;
+  
 
   display: flex;
   align-items: center;
@@ -117,6 +121,7 @@ main {
   scale: 1.1;
   border: 2px solid #374850;
   transition: scale 0.2s;
+  background-color: rgb(213, 213, 230);
 }
 
 .face_videos img {
@@ -133,8 +138,8 @@ main {
 }
 
 .conteudo_videos iframe{
-  width: 30%;
-  height: 20rem;
+  width: 25%;
+  height: 25%;
   border-radius: 20px;
   margin-right: 40px;
   margin-bottom: 40px;
@@ -146,7 +151,7 @@ main {
 footer {
   background: #ffc727;
 
-  height: 2rem;
+  height: 1rem;
   padding: 0.5rem;
 
   display: flex;

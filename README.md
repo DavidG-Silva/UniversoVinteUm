@@ -6,9 +6,9 @@
 
 ## PROPOSTA
 
-- Criação de um site de entretenimento, voltado para pessoas com Síndrome de Down;
+- Criação de um site de entretenimento, conteúdos e educação voltado para pessoas com Síndrome de Down habitantes de São Paulo/SP;
 - Desenvolvido à partir de um Wireframe e de fácil atualização;
-- Desenvolvimento de uma plataforma que possa ser ampliada com novas funcionálidades e áreas.
+- Desenvolvimento de uma plataforma que possa ser ampliada com novas funcionalidades e áreas.
 
 #### PREMISSAS
 
@@ -19,10 +19,6 @@
 - Apresentar conteúdos educacionais e de lazer de uma maneira simples, intuitiva e que facilite e impacte diretamente as suas vidas.
 
 ## EQUIPE
-
-- AMANDA SANTOS MANTOVANI
-<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
-<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
 
 - CRISTIAN LOPES TRINDADE
 <a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
@@ -38,11 +34,14 @@
 
 ---
 
-## CRONOGRAMA
+## CHECK POINTS
 
-- [ ] Etapa 01: Estudo da arquitetura de navegação, escolha de fontes, textos e imagens;
-- [ ] Etapa 02: Criação do Layout, Tratamento de Imagens, Desenvolvimento e Programação;
-- [ ] Etapa 03: Teste, validações e considerações finais;
-- [ ] Etapa 04: Apresentação;
+- [x] Etapa 01: Definição de escopo, alcance, premissas e atribuições da equipe;
+- [x] Etapa 02: Criação do layout, tratamento de imagens e estabelecimento do cronograma;
+- [x] Etapa 03: Ordenação da estrutura HTML;
+- [x] Etapa 04: Aplicação de estilos CSS;
+- [ ] Etapa 05: Programação em JavaScript;
+- [ ] Etapa 06: Modelagem do banco de dados SQL;
+
 
 ###### tags: `projetointegrador` `frontend` `html` `css` `javascript` `desenvolvimento` `inclusao` `sindromededown`

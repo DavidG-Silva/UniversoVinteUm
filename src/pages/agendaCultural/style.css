@@ -22,14 +22,9 @@ header {
   align-items: flex-end;
 }
 
-<<<<<<< HEAD
-header container {
+.header_container {
   background-image: linear-gradient(to left, #fdf9d5, #ededed);
 
-=======
-.header_container {
-  background-color: #ffffff;
->>>>>>> 83311d601143cf4522df05adf0731b3be996a4ff
 
   display: flex;
   justify-content: space-between;

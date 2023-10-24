@@ -21,16 +21,16 @@
 ## EQUIPE
 
 - CRISTIAN LOPES TRINDADE
-<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
-<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
+  <a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
+  <a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
 
-- DAVID GUILHERME DA SILVA 
-<a href="https://www.linkedin.com/in/davidgsilva/" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
-<a href="https://github.com/DavidG-Silva" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
+- DAVID GUILHERME DA SILVA
+  <a href="https://www.linkedin.com/in/davidgsilva/" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
+  <a href="https://github.com/DavidG-Silva" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
 
 - MARIA OLÍVIA RODRIGUES DOS SANTOS BARCELLOS
-<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
-<a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
+  <a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" height="10"></a>
+  <a href="#equipe" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="10"></a>
 
 ---
 
@@ -40,8 +40,7 @@
 - [x] Etapa 02: Criação do layout, tratamento de imagens e estabelecimento do cronograma;
 - [x] Etapa 03: Ordenação da estrutura HTML;
 - [x] Etapa 04: Aplicação de estilos CSS;
-- [ ] Etapa 05: Programação em JavaScript;
-- [ ] Etapa 06: Modelagem do banco de dados SQL;
-
+- [x] Etapa 05: Programação em JavaScript;
+- [x] Etapa 06: Modelagem do banco de dados SQL;
 
 ###### tags: `projetointegrador` `frontend` `html` `css` `javascript` `desenvolvimento` `inclusao` `sindromededown`

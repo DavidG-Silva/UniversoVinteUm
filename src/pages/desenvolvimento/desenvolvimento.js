@@ -1,5 +1,5 @@
 window.onload = function() {
-  var logo = document.querySelector('img[src="../../image/logo.png"]');
+  var logo = document.querySelector('img[src="../image/logo.png"]');
   logo.addEventListener('mouseover', function() {
       var shaking = setInterval(function() {
           logo.style.position = 'relative';
